@@ -1,0 +1,27 @@
+---
+title: Hello R Markdown
+author: Enayetur Raheem
+date: '2017-03-29'
+slug: hello-r-markdown
+categories:
+  - R
+tags: []
+---
+
+This is R markdown example file. This is R markdown example file. This is R markdown example file. This is R markdown example file. This is R markdown example file. This is R markdown example file. 
+
+This is R markdown example file. This is R markdown example file. 
+
+
+
+```{r }
+x <- 1:10
+y <- round(rnorm(10, x, 1), 2)
+df <- data.frame(x, y)
+df
+```
+
+```{r }
+boxplot(1:10~rep(1:2,5))
+plot(x, y)
+```

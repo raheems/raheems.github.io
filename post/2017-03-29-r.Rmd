@@ -1,0 +1,10 @@
+---
+title: R
+author: Enayetur Raheem
+date: '2017-03-29'
+slug: r
+categories:
+  - R
+tags: []
+---
+

@@ -11,6 +11,51 @@
     
     <item>
       <title>Hello R Markdown</title>
+      <link>/post/hello-r-markdown/</link>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hello-r-markdown/</guid>
+      <description>&lt;p&gt;This is R markdown example file. This is R markdown example file. This is R markdown example file. This is R markdown example file. This is R markdown example file. This is R markdown example file.&lt;/p&gt;
+&lt;p&gt;This is R markdown example file. This is R markdown example file.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;x &amp;lt;- 1:10
+y &amp;lt;- round(rnorm(10, x, 1), 2)
+df &amp;lt;- data.frame(x, y)
+df&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##     x    y
+## 1   1 0.00
+## 2   2 0.12
+## 3   3 2.77
+## 4   4 3.62
+## 5   5 5.24
+## 6   6 4.83
+## 7   7 6.35
+## 8   8 7.68
+## 9   9 8.05
+## 10 10 9.62&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;boxplot(1:10~rep(1:2,5))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2017-03-29-hello-r-markdown_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(x, y)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2017-03-29-hello-r-markdown_files/figure-html/unnamed-chunk-2-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/post/r/</link>
+      <pubDate>Wed, 29 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
       <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
